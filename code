@@ -23,6 +23,6 @@ if __name__=="__main__":
     year.grid(row=2,column=1)
     year_entry=entry(root,font=("Arial",15,"bold"))
     year_entry.grid(row=3,column=1)
-    show_button=button(root,text="show calendar!",fg="red",bg="black",font=("Arial",15,"bold",command=Calendar_see))
+    show_button=button(root,text="show calendar!",fg="red",bg="black",font=("Arial",15,"bold"),command=Calendar_see)
     show_button.grid(row=4,column=1)
     root.mainloop()
